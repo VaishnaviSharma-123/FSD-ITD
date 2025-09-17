@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Institute Name</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: pink;
+    }
+
+    header {
+      background-color: #003366;
+      color:grey;
+      padding: 25px;
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+
+    .thought-container {
+      background-color:cornsilk;
+      padding: 20px;
+      margin: 30px auto;
+      width: 80%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: relative;
+      overflow: hidden;
+      height: 50px;
+    }
+
+    .thoughts {
+      display: flex;
+      animation: slide 15s linear infinite;
+    }
+
+    .thought {
+      min-width: 100%;
+      text-align: center;
+      font-size: 18px;
+      color: #333;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      100% { transform: translateX(-400%); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="image2.png" alt="Institute Logo">
+    <h1>Institute of Excellence</h1>
+  </header>
+
+  <div class="thought-container">
+    <div class="thoughts">
+      <div class="thought">"Education is the most powerful weapon you can use to change the world." – Nelson Mandela</div>
+      <div class="thought">"The roots of education are bitter, but the fruit is sweet." – Aristotle</div>
+      <div class="thought">"Learning never exhausts the mind." – Leonardo da Vinci</div>
+      <div class="thought">"An investment in knowledge pays the best interest." – Benjamin Franklin</div>
+      <div class="thought">"The beautiful thing about learning is nobody can take it away from you." – B.B. King</div>
+    </div>
+  </div>
+
+</body>
+</html>
