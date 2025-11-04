@@ -1,0 +1,47 @@
+let numTostring=string(12345);
+console.log(numToString+ " " + typeof(numToString));\
+
+
+
+
+let numToBool = Boolean("");
+console.log(numToBool);
+
+for(let i=1::i<6;i=i+2){
+
+    console.log("*" * i);
+
+}
+
+
+//pattern
+
+
+
+let row= 5;
+for (let i = 1;i<=row;i++){
+    let line = " " ;
+    for (let j=1;j<=2*row-1;j++){
+        if(i+j>row && j-i<row-1){
+            line+="*";
+        }
+        else{
+            line+=" ";
+        }
+    }
+    console.log(line);
+}
+
+let numbers=[1,2,3,4,5];
+numbers.forEach(number)=>{
+    console.log(number);
+};
+
+const add=(...args)=>
+    {
+    let arr=[];
+    args.foreach(num)=>{
+        console.log(num);
+        let isdiv=(num%2==0)?true:false;
+    }
+};

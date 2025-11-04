@@ -1,0 +1,38 @@
+.timetable-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a0a0a;
+  color: white;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+}
+
+th {
+  background-color: #333;
+  color: #61dafb;
+}
+
+td {
+  background-color: #222;
+}
+
+td:hover {
+  background-color: #444;
+  transition: 0.2s;
+}
+ 

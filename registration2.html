@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <table><tr><td><img src="abes.jpg" alt="abes image"></td>
+   <td> <h2>REGISTRATION FORM</h2></tr> 
+    <tr><td></td>
+         <form action="/submit" method="post"></form>      
+       <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        <label for="Age">Age:</label>
+        <input type="age" id="age" placeholder="Enter your age"><br><br>
+         <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+        <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+    <form>
+  <p>Select your branch:</p>
+
+  <input type="radio" id="it" name="branch" value="IT">
+  <label for="it">IT</label><br>
+
+  <input type="radio" id="ce" name="branch" value="CE">
+  <label for="ce">CE</label><br>
+
+  <input type="radio" id="alml" name="branch" value="ALML">
+  <label for="alml">ALML</label><br>
+
+  <input type="radio" id="csds" name="branch" value="CSDS">
+  <label for="csds">CSDS</label><br><br>
+
+<label for="skills">Skills:</label>
+   <select id="skills" name="skills">
+      <option value="C++">C++</option>
+      <option value="Java">Java</option>
+      <option value="Python">Python</option>
+    </select><br><br>
+
+    <label fpr="address">Address:</label>
+    <textarea></textarea><br><br>
+     <button type="submit">Submit</button><tr></tr>
+     <button type="reset">Reset</button>
+
+
+    </form></tr>
+    
+</body>
+</html>
