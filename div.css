@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #body{
  background:burlywood;
@@ -21,3 +22,30 @@
     border:3px solid blueviolet;
     overflow: hidden;
 }
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#body{
+ background:burlywood;
+}
+#flex{
+    display: flex;
+}
+#box{
+    width: 40vw;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius:0cqi;
+    text-align: center;
+    background:aliceblue;
+    padding: 0;
+    margin: 0;
+}
+#im{
+    width: 98%;
+    height: 25vh;
+    border:3px solid blueviolet;
+    overflow: hidden;
+}
+>>>>>>> 42ef29785cb8c0bef2c0f230f7444b535f5c9a85
